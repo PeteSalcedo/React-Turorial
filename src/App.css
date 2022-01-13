@@ -48,3 +48,50 @@ color: #FFFFFF;
 
 
 }
+
+.firstbox{
+    position: absolute;
+width: 230px;
+height: 35px;
+left: 36px;
+top: 101px;
+
+border: 1px solid #D5D4D8;
+box-sizing: border-box;
+border-radius: 5px;
+}
+.secondbox{
+    position: absolute;
+width: 230px;
+height: 35px;
+left: 283px;
+top: 101px;
+
+border: 1px solid #D5D4D8;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.submit{
+    position: absolute;
+width: 477px;
+height: 40px;
+left: 36px;
+top: 151px;
+
+background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+border-radius: 5px;
+
+}
+
+.memearea{
+    position: absolute;
+width: 477px;
+height: 268px;
+left: 36px;
+top: 227px;
+
+background: url(./images/meme.jpeg);
+background-repeat: no-repeat;
+border-radius: 2px;
+}
