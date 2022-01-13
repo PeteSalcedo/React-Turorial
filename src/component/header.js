@@ -1,11 +1,13 @@
 import react from "react"
 import React from "react"
-import logo from "./react-logo.png"
+
+
 function Header() {
     return(
         <header>
-            <nav>
-                <img src={logo} />
+            <nav className='main-header'>
+                <h1 className='main-header-title'>MemeGenerator</h1>
+                <h1 className='main-header-2title'>React Course</h1>
              
             </nav>
         </header>
