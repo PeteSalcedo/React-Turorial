@@ -1,13 +1,13 @@
 import React from 'react'
 import './App.css'
-import List from './component/list.js'
+import TextBox from './component/TextBox.js'
 import Header from './component/header.js'
 
 const App = () => {
     return(
         <div>
         <Header />,
-        <List />
+        <TextBox />
         </div>
     )
 }
