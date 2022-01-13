@@ -1,12 +1,13 @@
 import React from 'react'
 import './App.css'
+import List from './component/list.js'
+import Header from './component/header.js'
 
 const App = () => {
     return(
         <div>
-            <h1>
-                Starter react boilerplate
-            </h1>
+        <Header />,
+        <List />
         </div>
     )
 }
